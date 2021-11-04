@@ -8,7 +8,7 @@ Assets {
     ParameterOverrides {
       Overrides {
         Name: "roughness_multiplier"
-        Float: 0.25
+        Float: 0.4
       }
       Overrides {
         Name: "color"

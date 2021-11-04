@@ -205,6 +205,12 @@ Assets {
             Name: "bp:Absolute Scale"
             Bool: true
           }
+          Overrides {
+            Name: "bp:Shape Visibility"
+            Enum {
+              Value: "mc:evolumevisibility:newenumerator0"
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -265,6 +271,12 @@ Assets {
           Overrides {
             Name: "bp:Absolute Scale"
             Bool: true
+          }
+          Overrides {
+            Name: "bp:Shape Visibility"
+            Enum {
+              Value: "mc:evolumevisibility:newenumerator0"
+            }
           }
         }
         Collidable_v2 {
@@ -327,6 +339,12 @@ Assets {
             Name: "bp:Absolute Scale"
             Bool: true
           }
+          Overrides {
+            Name: "bp:Shape Visibility"
+            Enum {
+              Value: "mc:evolumevisibility:newenumerator0"
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -360,7 +378,7 @@ Assets {
           Rotation {
             Pitch: 44.9999695
             Yaw: -179.999954
-            Roll: -89.9999466
+            Roll: -89.999939
           }
           Scale {
             X: 1.43999994
@@ -432,7 +450,7 @@ Assets {
           }
           Rotation {
             Yaw: -179.999969
-            Roll: -89.9999313
+            Roll: -89.999939
           }
           Scale {
             X: 1.44000018
@@ -504,7 +522,7 @@ Assets {
           }
           Rotation {
             Yaw: -179.999969
-            Roll: -89.9999313
+            Roll: -89.999939
           }
           Scale {
             X: 1.44000018
@@ -577,7 +595,7 @@ Assets {
           Rotation {
             Pitch: 44.9999695
             Yaw: -179.999954
-            Roll: -89.9999466
+            Roll: -89.999939
           }
           Scale {
             X: 1.43999994
@@ -648,7 +666,7 @@ Assets {
             Z: 64.998291
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -90
           }
           Scale {
             X: 1.44000018
@@ -719,7 +737,7 @@ Assets {
             Z: 64.998291
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -90
           }
           Scale {
             X: 1.44000018
@@ -798,11 +816,15 @@ Assets {
           }
         }
         ParentId: 12739559864680451022
-        ChildIds: 7102145550592218146
+        ChildIds: 6389134939320479472
+        ChildIds: 9944539846667595823
+        ChildIds: 5123403933114653388
+        ChildIds: 13681612515048364720
+        ChildIds: 9910320849978681731
+        ChildIds: 8301806831346778107
+        ChildIds: 12826601613981623406
         ChildIds: 13928557402377216468
         ChildIds: 12805272234550968126
-        ChildIds: 11974898524090053241
-        ChildIds: 12826601613981623406
         ChildIds: 12342841557725732207
         ChildIds: 12198930531658215344
         ChildIds: 15828260831877117534
@@ -831,6 +853,7 @@ Assets {
         ChildIds: 7469119986597286173
         ChildIds: 17381610808254142826
         ChildIds: 5344255831015253245
+        ChildIds: 16836177808452556852
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -849,21 +872,23 @@ Assets {
         }
       }
       Objects {
-        Id: 7102145550592218146
+        Id: 6389134939320479472
         Name: "Wedge"
         Transform {
           Location {
-            X: -240.142822
-            Y: -0.000127761828
-            Z: 49.0000153
+            X: 366.118652
+            Y: -0.00305175781
+            Z: 1064.99817
           }
           Rotation {
-            Yaw: -89.9999924
+            Pitch: -44.9998779
+            Yaw: 7.24449274e-06
+            Roll: -90
           }
           Scale {
-            X: 3.00000024
-            Y: 12
-            Z: 12
+            X: -3
+            Y: 5.20000029
+            Z: 3
           }
         }
         ParentId: 11432774742389757067
@@ -871,15 +896,15 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2267027954781142268
+              Id: 13707324783813577921
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 2
-              G: 0.445381284
-              B: 0.301566243
+              G: 2
+              B: 2
               A: 1
             }
           }
@@ -898,7 +923,407 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3156446286238565589
+            Id: 16846647255077627877
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 9944539846667595823
+        Name: "Wedge"
+        Transform {
+          Location {
+            X: -408.709
+            Y: -0.000152587891
+            Z: 473.899292
+          }
+          Rotation {
+            Pitch: -44.999939
+            Yaw: 2.41483463e-06
+            Roll: -90
+          }
+          Scale {
+            X: 3
+            Y: 5.20000029
+            Z: 3
+          }
+        }
+        ParentId: 11432774742389757067
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13707324783813577921
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 2
+              G: 2
+              B: 2
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16846647255077627877
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 5123403933114653388
+        Name: "Wedge"
+        Transform {
+          Location {
+            X: -227.351089
+            Y: -0.000228881836
+            Z: 655.258423
+          }
+          Rotation {
+            Pitch: -44.9999084
+            Yaw: 4.82966561e-06
+            Roll: -90
+          }
+          Scale {
+            X: 3
+            Y: 5.20000029
+            Z: 3
+          }
+        }
+        ParentId: 11432774742389757067
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13707324783813577921
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 2
+              G: 2
+              B: 2
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16846647255077627877
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 13681612515048364720
+        Name: "Wedge"
+        Transform {
+          Location {
+            X: -45.0534706
+            Y: -0.000274658203
+            Z: 837.557495
+          }
+          Rotation {
+            Pitch: -44.9998779
+            Yaw: 7.24449592e-06
+            Roll: -90
+          }
+          Scale {
+            X: 3
+            Y: 5.20000029
+            Z: 3
+          }
+        }
+        ParentId: 11432774742389757067
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13707324783813577921
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 2
+              G: 2
+              B: 2
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16846647255077627877
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 9910320849978681731
+        Name: "Wedge"
+        Transform {
+          Location {
+            X: 85.2395
+            Y: -0.000244140625
+            Z: 967.85083
+          }
+          Rotation {
+            Pitch: -44.9998779
+            Yaw: 7.24449274e-06
+            Roll: -90
+          }
+          Scale {
+            X: 3
+            Y: 5.20000029
+            Z: 3
+          }
+        }
+        ParentId: 11432774742389757067
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13707324783813577921
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 2
+              G: 2
+              B: 2
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16846647255077627877
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 8301806831346778107
+        Name: "Wedge"
+        Transform {
+          Location {
+            X: -584.388184
+            Y: 0.000366210938
+            Z: 298.219604
+          }
+          Rotation {
+            Pitch: -44.9999695
+            Roll: -90
+          }
+          Scale {
+            X: 3
+            Y: 5.20000029
+            Z: 3
+          }
+        }
+        ParentId: 11432774742389757067
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13707324783813577921
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 2
+              G: 2
+              B: 2
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16846647255077627877
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 12826601613981623406
+        Name: "Wedge"
+        Transform {
+          Location {
+            X: -758.43042
+            Y: 0.00189208984
+            Z: 124.179443
+          }
+          Rotation {
+            Pitch: -45
+            Roll: -90
+          }
+          Scale {
+            X: 3
+            Y: 5.20000029
+            Z: 3
+          }
+        }
+        ParentId: 11432774742389757067
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13707324783813577921
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 2
+              G: 2
+              B: 2
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16846647255077627877
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1051,133 +1476,6 @@ Assets {
         }
       }
       Objects {
-        Id: 11974898524090053241
-        Name: "Cube - Bottom-Aligned"
-        Transform {
-          Location {
-            X: 412.857178
-            Y: -0.000128609798
-            Z: 49.0000153
-          }
-          Rotation {
-            Yaw: -89.9999924
-          }
-          Scale {
-            X: 3
-            Y: 1.06
-            Z: 11.999
-          }
-        }
-        ParentId: 11432774742389757067
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 2267027954781142268
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 2
-              G: 0.445381284
-              B: 0.301566243
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 10363754998281018328
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 12826601613981623406
-        Name: "Wedge"
-        Transform {
-          Location {
-            X: -240.142822
-            Y: -0.000127761828
-            Z: 49.0000153
-          }
-          Rotation {
-            Yaw: -89.9999619
-          }
-          Scale {
-            X: 2.9
-            Y: 12.01
-            Z: 12.01
-          }
-        }
-        ParentId: 11432774742389757067
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 69844939897041847
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3156446286238565589
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
         Id: 12342841557725732207
         Name: "Pipe - 45-Degree Long Thick"
         Transform {
@@ -1188,7 +1486,6 @@ Assets {
           }
           Rotation {
             Pitch: -90
-            Yaw: -4.55345935e-06
             Roll: -179.999969
           }
           Scale {
@@ -1202,7 +1499,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1212,8 +1509,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1272,7 +1569,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1282,8 +1579,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1340,7 +1637,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1350,8 +1647,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1409,7 +1706,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1419,8 +1716,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1479,7 +1776,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1489,8 +1786,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1549,7 +1846,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1559,8 +1856,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1617,7 +1914,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1627,8 +1924,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1686,7 +1983,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1696,8 +1993,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1755,7 +2052,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -1765,8 +2062,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -1881,7 +2178,7 @@ Assets {
           }
           Rotation {
             Yaw: -179.999954
-            Roll: -89.9999161
+            Roll: -89.9999084
           }
           Scale {
             X: 1.44000018
@@ -1952,7 +2249,7 @@ Assets {
           Rotation {
             Pitch: 44.999939
             Yaw: -179.999954
-            Roll: -89.9999466
+            Roll: -89.999939
           }
           Scale {
             X: 1.43999994
@@ -2021,7 +2318,7 @@ Assets {
             Z: 113.998306
           }
           Rotation {
-            Roll: -89.9999771
+            Roll: -89.9999695
           }
           Scale {
             X: 1.44000018
@@ -2090,7 +2387,7 @@ Assets {
             Z: 113.998306
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -90
           }
           Scale {
             X: 1.44000018
@@ -2160,7 +2457,6 @@ Assets {
           }
           Rotation {
             Pitch: -90
-            Yaw: -4.55345935e-06
             Roll: -179.999969
           }
           Scale {
@@ -2174,7 +2470,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2184,8 +2480,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2244,7 +2540,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2254,8 +2550,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2312,7 +2608,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2322,8 +2618,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2381,7 +2677,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2391,8 +2687,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2451,7 +2747,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2461,8 +2757,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2521,7 +2817,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2531,8 +2827,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2589,7 +2885,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2599,8 +2895,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2658,7 +2954,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2668,8 +2964,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2727,7 +3023,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1338778957056094660
+              Id: 69844939897041847
             }
           }
           Overrides {
@@ -2737,8 +3033,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 2
-              G: 2
+              R: 1
+              G: 1
               A: 1
             }
           }
@@ -2782,7 +3078,7 @@ Assets {
             Z: 113.998306
           }
           Rotation {
-            Roll: -89.9999771
+            Roll: -89.9999695
           }
           Scale {
             X: 1.44000018
@@ -2851,7 +3147,7 @@ Assets {
             Z: 113.998306
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -90
           }
           Scale {
             X: 1.44000018
@@ -2922,7 +3218,7 @@ Assets {
           Rotation {
             Pitch: 44.999939
             Yaw: -179.999954
-            Roll: -89.9999466
+            Roll: -89.999939
           }
           Scale {
             X: 1.43999994
@@ -3062,7 +3358,7 @@ Assets {
           }
           Rotation {
             Yaw: -179.999954
-            Roll: -89.9999161
+            Roll: -89.9999084
           }
           Scale {
             X: 1.44000018
@@ -3107,6 +3403,69 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 16836177808452556852
+        Name: "Wedge"
+        Transform {
+          Location {
+            X: -275.139862
+            Y: -0.000244140625
+            Z: 607.574097
+          }
+          Rotation {
+            Yaw: -90
+            Roll: -45
+          }
+          Scale {
+            X: 2.7
+            Y: 17.8000011
+            Z: 3
+          }
+        }
+        ParentId: 11432774742389757067
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 69844939897041847
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6669114002000057967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4727,21 +5086,21 @@ Assets {
       }
     }
     Assets {
-      Id: 3156446286238565589
-      Name: "Wedge"
+      Id: 16846647255077627877
+      Name: "Prism - 6-Sided Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_wedge_001"
+        AssetId: "sm_half_hexagon_001"
       }
     }
     Assets {
-      Id: 2267027954781142268
-      Name: "Office Wall Panel 01"
+      Id: 13707324783813577921
+      Name: "Tech Panel 05"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_urb_office_wall_001_uv_ref"
+        AssetId: "mi_sf_gen_tech-panel_005"
       }
     }
     Assets {
@@ -4754,24 +5113,6 @@ Assets {
       }
     }
     Assets {
-      Id: 10363754998281018328
-      Name: "Cube - Bottom-Aligned"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_001"
-      }
-    }
-    Assets {
-      Id: 69844939897041847
-      Name: "Emissive Glow Opaque"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxma_opaque_emissive"
-      }
-    }
-    Assets {
       Id: 9762786873946438099
       Name: "Pipe - 45-Degree Long Thick"
       PlatformAssetType: 1
@@ -4781,12 +5122,12 @@ Assets {
       }
     }
     Assets {
-      Id: 1338778957056094660
-      Name: "Rubber Old 01"
+      Id: 69844939897041847
+      Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_mil_rubber_old_001_uv_ref"
+        AssetId: "fxma_opaque_emissive"
       }
     }
     Assets {
@@ -4823,6 +5164,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_basic_001"
+      }
+    }
+    Assets {
+      Id: 6669114002000057967
+      Name: "Plane 1m - One Sided"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_plane_1m_001"
       }
     }
     PrimaryAssetId {

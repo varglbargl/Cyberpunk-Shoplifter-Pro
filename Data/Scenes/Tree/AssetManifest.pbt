@@ -1,4 +1,22 @@
 Assets {
+  Id: 18393437648231545508
+  Name: "Urban Pipe Flange 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
+  }
+}
+Assets {
+  Id: 18031180683407583988
+  Name: "Urban Pipe Cap 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_cap_002_ref"
+  }
+}
+Assets {
   Id: 17929096490089432967
   Name: "Primitive Neon: Quarter-Circle"
   PlatformAssetType: 1
@@ -17,21 +35,30 @@ Assets {
   }
 }
 Assets {
-  Id: 17593150388820528721
-  Name: "Japanese Temple Wall Gate Top End 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_jpn_tem_wall_lrg_002_gate_topA_ref"
-  }
-}
-Assets {
   Id: 17236326679888273352
   Name: "Plastic Matte"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 17202850110412916910
+  Name: "Sci-fi Circuits Ring 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_scifi_001"
+  }
+}
+Assets {
+  Id: 17202816817763812680
+  Name: "Urban Pipe Coupling 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_002_ref"
   }
 }
 Assets {
@@ -44,12 +71,30 @@ Assets {
   }
 }
 Assets {
-  Id: 16846647255077627877
-  Name: "Prism - 6-Sided Half"
+  Id: 16688788660852100712
+  Name: "Sci-fi Antenna Base"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
+    AssetId: "sm_prop_scf_antenna_base_001"
+  }
+}
+Assets {
+  Id: 16685694087492050473
+  Name: "Sci-fi Base Trim 02 Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_trim_002_corner_ref"
+  }
+}
+Assets {
+  Id: 16629002373540841039
+  Name: "Sci-fi Cryo Chamber Door 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_cryo_door_001"
   }
 }
 Assets {
@@ -62,6 +107,24 @@ Assets {
   }
 }
 Assets {
+  Id: 16398285770042784863
+  Name: "Waterfall Top Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_waterfall_top"
+  }
+}
+Assets {
+  Id: 16169295152279750336
+  Name: "Sci-fi Cryo Chamber Base 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_cryo_base_001"
+  }
+}
+Assets {
   Id: 15897705887741699672
   Name: "Urban Pipe Straight"
   PlatformAssetType: 1
@@ -71,12 +134,66 @@ Assets {
   }
 }
 Assets {
-  Id: 14843700671605591999
-  Name: "Metal Frame 01"
-  PlatformAssetType: 2
+  Id: 15836091005513172030
+  Name: "Waterfall Straight"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_001_uv"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_waterfall_straight"
+  }
+}
+Assets {
+  Id: 15732777065278343437
+  Name: "Urban Pipe Clamp 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_clamp_001_ref"
+  }
+}
+Assets {
+  Id: 15628946560722103455
+  Name: "Main Street Pillar 02 Top"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_pillar_002_top_ref"
+  }
+}
+Assets {
+  Id: 15352757499299493033
+  Name: "Decal Stains Top 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_top_001"
+  }
+}
+Assets {
+  Id: 15308996068973738360
+  Name: "Waterfall Small SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_waterfall_Cue"
+  }
+}
+Assets {
+  Id: 14805929512282111496
+  Name: "Urban Pipe Clamp 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_clamp_002_ref"
+  }
+}
+Assets {
+  Id: 14643255651414110878
+  Name: "Sci-fi Satellite Dish"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_satellite_dish_001"
   }
 }
 Assets {
@@ -86,6 +203,33 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 14541379120575232735
+  Name: "Urban Pipe Coupling 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_001_ref"
+  }
+}
+Assets {
+  Id: 14362404870627035568
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
+  Id: 14135151109225738306
+  Name: "Urban Pipe Coupline 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_003_ref"
   }
 }
 Assets {
@@ -116,12 +260,39 @@ Assets {
   }
 }
 Assets {
-  Id: 13391329497452285955
-  Name: "Plastic Shiny"
-  PlatformAssetType: 2
+  Id: 13659274454701777532
+  Name: "Ring - Beveled Thin - Large"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_shiny_001"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_thin_lg_001_ref"
+  }
+}
+Assets {
+  Id: 13471801360376887729
+  Name: "Survival Food Candy 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Food_001"
+  }
+}
+Assets {
+  Id: 13467939812857306969
+  Name: "Urban Pipe Coupling 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_004_ref"
+  }
+}
+Assets {
+  Id: 13440765752877697634
+  Name: "Cylinder - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_001"
   }
 }
 Assets {
@@ -143,6 +314,24 @@ Assets {
   }
 }
 Assets {
+  Id: 13148505073156703051
+  Name: "Urban Pipe Clamp 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_clamp_004_ref"
+  }
+}
+Assets {
+  Id: 12942639979072618380
+  Name: "Fantasy Ability Blue 030"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_030"
+  }
+}
+Assets {
   Id: 12838096551191346123
   Name: "Sphere"
   PlatformAssetType: 1
@@ -152,12 +341,21 @@ Assets {
   }
 }
 Assets {
-  Id: 12732911975078318892
-  Name: "Wallpaper Japanese Waves 01"
-  PlatformAssetType: 2
+  Id: 12698259219070538435
+  Name: "Container - Square Thin 01"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_jpn_wallpaper_waves_001_uv_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_square_thin_ref"
+  }
+}
+Assets {
+  Id: 12615277587249959108
+  Name: "Sci-fi Base Trim 02 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_trim_002_8m_ref"
   }
 }
 Assets {
@@ -170,12 +368,48 @@ Assets {
   }
 }
 Assets {
+  Id: 11545015942469760665
+  Name: "Pipe - 8-Sided Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_eightsided_003"
+  }
+}
+Assets {
+  Id: 11501708824719583326
+  Name: "Building 9 Slice Composite 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_building_skyscraper_003"
+  }
+}
+Assets {
   Id: 11480463877420311751
   Name: "Girder Small 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_19th_century_4m_001"
+  }
+}
+Assets {
+  Id: 11456695522513557114
+  Name: "Sci-fi Ability Purple 026"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Purple_026"
+  }
+}
+Assets {
+  Id: 11333095049857697952
+  Name: "Urban Pipe Valve 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_valve_002_ref"
   }
 }
 Assets {
@@ -188,12 +422,30 @@ Assets {
   }
 }
 Assets {
+  Id: 10393433063610320894
+  Name: "Ring - Quarter Beveled Thin - Large "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_ring_faceted_thin_lg_001_ref"
+  }
+}
+Assets {
   Id: 10363754998281018328
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
+  }
+}
+Assets {
+  Id: 10339759641631389420
+  Name: "Waterfall 90 Outer Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "waterfall_90oc"
   }
 }
 Assets {
@@ -206,12 +458,66 @@ Assets {
   }
 }
 Assets {
+  Id: 10221011811945270478
+  Name: "Glass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_refrac_001"
+  }
+}
+Assets {
+  Id: 10190446797678090877
+  Name: "Sci-fi Machinery Tube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_machinery_tube_001"
+  }
+}
+Assets {
   Id: 9762786873946438099
   Name: "Pipe - 45-Degree Long Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve45_006"
+  }
+}
+Assets {
+  Id: 9493855129474336406
+  Name: "Sci-fi Base Wall 01 - Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_001_door_01_ref"
+  }
+}
+Assets {
+  Id: 9256470157330760135
+  Name: "Building 9 Slice Composite 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_building_skyscraper_002"
+  }
+}
+Assets {
+  Id: 9192005160775740800
+  Name: "Sci-fi Wall Screen 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_holo_001_ref"
+  }
+}
+Assets {
+  Id: 9000799682610570200
+  Name: "Sci-fi Base Wall 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_001_half_ref"
   }
 }
 Assets {
@@ -230,6 +536,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_painted_new_001_uv"
+  }
+}
+Assets {
+  Id: 8666280009596198603
+  Name: "Sci-fi Wall Screen 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_holo_002_ref"
   }
 }
 Assets {
@@ -278,12 +593,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7625382804772008570
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
+  }
+}
+Assets {
   Id: 7503669766182232408
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_001"
+  }
+}
+Assets {
+  Id: 6874902328520943094
+  Name: "Urban Pipe Wrap 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_005_ref"
   }
 }
 Assets {
@@ -305,15 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6669114002000057967
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 6646322213948134365
   Name: "Clay Form 02"
   PlatformAssetType: 1
@@ -332,12 +656,93 @@ Assets {
   }
 }
 Assets {
+  Id: 6405665999636578370
+  Name: "Sci-fi Chair Base 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_chair_001_base_ref"
+  }
+}
+Assets {
+  Id: 6397770601019929856
+  Name: "Sci-fi Base Capsule 01 Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_acc_cap_top_002_ref"
+  }
+}
+Assets {
   Id: 6332270080173816674
   Name: "Japanese Temple Torii Gate Post 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_jpn_tem_torii_post_001_ref"
+  }
+}
+Assets {
+  Id: 6327557155741652391
+  Name: "Basic Hologram"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_basic_hologram"
+  }
+}
+Assets {
+  Id: 6282879549724104730
+  Name: "Survival Food Bottle 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Food_007"
+  }
+}
+Assets {
+  Id: 5873367070769106286
+  Name: "Sci-fi Base Wall 01 - Corner 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_001_corner_01_ref"
+  }
+}
+Assets {
+  Id: 5451103441020216148
+  Name: "Animated Neon Sign - Witch Hat"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_neonSign_witchHat"
+  }
+}
+Assets {
+  Id: 5439646266583319854
+  Name: "Frosted Glass No Distortion"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_frosted_glass_nodistortion"
+  }
+}
+Assets {
+  Id: 5381367210591412322
+  Name: "Urban Pipe Elbow 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_elbow_001_ref"
+  }
+}
+Assets {
+  Id: 5228545746055015815
+  Name: "Building 9 Slice Composite 05"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_building_skyscraper_005"
   }
 }
 Assets {
@@ -350,21 +755,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5189120898491822202
+  Name: "Guardrail - Curve 90\302\260 - 08m Radius"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_guardrail_001_curve90_r8m_ref"
+  }
+}
+Assets {
+  Id: 4798953546912878943
+  Name: "Urban Pipe Clamp 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_clamp_003_ref"
+  }
+}
+Assets {
   Id: 4532973036889391479
   Name: "Advanced Sketch Line Post Process"
   PlatformAssetType: 20
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_ppm_sketchline"
-  }
-}
-Assets {
-  Id: 4492863016662581020
-  Name: "Metal Corrugated 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
   }
 }
 Assets {
@@ -377,12 +791,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4377727808811670551
+  Name: "Faucet Water"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_faucet_water"
+  }
+}
+Assets {
   Id: 4296763809937140866
   Name: "Sci-fi Base Railing 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_railing_002_ref"
+  }
+}
+Assets {
+  Id: 4294027224222854438
+  Name: "Pyramid - 4-Sided Truncated Hollow Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_4_sided_truncated_hollow_thick_001"
   }
 }
 Assets {
@@ -422,6 +854,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3508999183427893678
+  Name: "Animated Neon Sign - Boba"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_Boba"
+  }
+}
+Assets {
+  Id: 3403118213009669307
+  Name: "Japanese Temple Wall 01 "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_wall_001_ref"
+  }
+}
+Assets {
   Id: 3339661373098217593
   Name: "Plane Circle - One Sided"
   PlatformAssetType: 1
@@ -431,12 +881,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3286228223287136517
-  Name: "Cylinder Half - Bottom-Aligned"
-  PlatformAssetType: 1
+  Id: 2964662321880178669
+  Name: "Concrete Panels 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_half_bot_001_ref"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_panels_001"
   }
 }
 Assets {
@@ -449,21 +899,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2794144340184050056
-  Name: "Ring - Quarter"
+  Id: 2427881549712173034
+  Name: "Sci-fi Machinery Base"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_quarter_torus_002"
-  }
-}
-Assets {
-  Id: 2500705457951443789
-  Name: "Dummy Object"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_dummy_pivot"
+    AssetId: "sm_prop_scf_machinery_base_001"
   }
 }
 Assets {
@@ -476,12 +917,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1338778957056094660
-  Name: "Rubber Old 01"
-  PlatformAssetType: 2
+  Id: 2042912882143222408
+  Name: "Sci-fi Base Wall 01"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_rubber_old_001_uv_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_001_ref"
   }
 }
 Assets {
@@ -491,6 +932,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_antenna_mast_001"
+  }
+}
+Assets {
+  Id: 783061334132030199
+  Name: "Animated Neon Sign - Kitty"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_neonSign_kitty"
   }
 }
 Assets {
@@ -545,6 +995,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_medium_4m_1-5m_001"
+  }
+}
+Assets {
+  Id: 219008908142172305
+  Name: "Ambience Water Hot Spring Bath Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_water_hot_spring_bath_loop_01_Cue_ref"
   }
 }
 Assets {
